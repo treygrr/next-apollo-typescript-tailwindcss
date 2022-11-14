@@ -6,7 +6,7 @@ export default function DefaultLayout({ children }: ScriptProps) {
   return (
     <div>
       <Header />
-      <main>
+      <main className="min-h-full">
         {children}
       </main>
       <Footer />
