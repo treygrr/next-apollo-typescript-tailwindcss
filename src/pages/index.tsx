@@ -1,6 +1,6 @@
 import { gql } from "@apollo/client";
 import { GetServerSideProps } from "next";
-import serverApollo from "src/lib/serverApollo";
+import serverApollo from "@/lib/serverApollo";
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
   const QUERY = gql`

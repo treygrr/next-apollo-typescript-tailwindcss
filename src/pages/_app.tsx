@@ -1,7 +1,7 @@
 import { AppProps } from 'next/app'
 import { ApolloProvider } from '@apollo/client'
-import client from 'src/lib/apollo'
-import DefaultLayout from 'src/layouts/default/DefaultLayout'
+import client from '@/lib/apollo'
+import DefaultLayout from '@/layouts/default/DefaultLayout'
 import '../styles/globals.css'
 
 
