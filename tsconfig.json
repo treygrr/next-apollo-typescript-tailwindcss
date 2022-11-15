@@ -23,11 +23,12 @@
         "name": "next"
       }
     ],
-    "baseUrl": "./src",
+    "baseUrl": "src",
     "paths": {
-      "@/lib/*": ["/lib/*"],
-      "@/app/*": ["/app/*"],
-      "@/layouts/*": ["/layouts/*"],
+      "@/lib/*": ["lib/*"],
+      "@/app/*": ["app/*"],
+      "@/layouts/*": ["layouts/*"],
+      "@/*": ["*"]
     },
   },
   "include": [
