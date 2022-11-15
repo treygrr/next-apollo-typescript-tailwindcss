@@ -7,13 +7,11 @@ import '../styles/globals.css'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (
-    <>
-      <ApolloProvider client={client}>
-        <DefaultLayout>
-          <Component {...pageProps} />
-        </DefaultLayout>
-      </ApolloProvider>
-    </>
+    <ApolloProvider client={client}>
+      <DefaultLayout>
+        <Component {...pageProps} />
+      </DefaultLayout>
+    </ApolloProvider>
   )
 }
 
