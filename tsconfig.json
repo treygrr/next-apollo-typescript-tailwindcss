@@ -28,7 +28,6 @@
       "@/app/*": ["/app/*"],
       "@/layouts/*": ["/layouts/*"],
     },
-    "baseUrl": "./src",
   },
   "include": [
     "next-env.d.ts",
