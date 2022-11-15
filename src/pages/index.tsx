@@ -26,7 +26,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
 
 export default function Home({ countries }: any) {
   return (
-    <div>
+    <div className="container">
       {countries.map((country: any) => (
         <div key={country.code}>
           <span>{country.emoji}</span>
